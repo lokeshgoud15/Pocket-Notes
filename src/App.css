@@ -1,0 +1,17 @@
+.main-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 99vh;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
